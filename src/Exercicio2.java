@@ -19,6 +19,6 @@ public class Exercicio2 {
         kmRodados = kmPainelCarroFim - kmPainelCarroInicio;
         mediaKm = kmRodados/litrosAbasteceu;
 
-        System.out.println("Resultado \n\n A media do veiculos é de " + df.format(mediaKm) +  " km/litro rodando " + kmRodados + "km");
+        System.out.println("Resultado \n\n A media do veiculos é de: " + df.format(mediaKm) +  " km/litro rodando " + kmRodados + "km");
     }
 }
